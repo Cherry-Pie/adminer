@@ -27,7 +27,7 @@ $ php artisan config:publish yaro/adminer
 
 
 ### Config description
-is_active - activate/disable adminer
-path - request uri for adminer panel
-version - which version to use
-theme - optional css theme
+**is_active** - activate/disable adminer<br/>
+**path** - request uri for adminer panel<br/>
+**version** - which version to use<br/>
+**theme** - optional css theme<br/>
