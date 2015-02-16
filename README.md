@@ -3,6 +3,13 @@
 Official [adminer website](http://adminer.org).
 
 ### Installation
+Add dependency to composer.json:
+```json
+"require": {
+    "yaro/adminer": "0.*"
+}
+```
+
 Add to app/config/app.php:
 ```php
 'providers' => array(
@@ -12,11 +19,15 @@ Add to app/config/app.php:
 ),
 ```
 
-Then:
+Then run commands:
 ```shell
-php artisan asset:publish yaro/adminer
-php artisan config:publish yaro/adminer
+$ php artisan asset:publish yaro/adminer
+$ php artisan config:publish yaro/adminer
 ```
 
 
-Thats all, folks
+### Config description
+is_active - activate/disable adminer
+path - request uri for adminer panel
+version - which version to use
+theme - optional css theme
