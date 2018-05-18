@@ -31,3 +31,4 @@ $ php artisan config:publish yaro/adminer
 **path** - request uri for adminer panel<br/>
 **version** - which version to use<br/>
 **theme** - optional css theme<br/>
+
